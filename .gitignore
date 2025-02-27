@@ -1,0 +1,54 @@
+build/
+*__pycache__*
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Cloned by the build system.
+current/
+googletest/
+
+# Added automatically by `pls`. Okay to push to git.
+CMakeLists.txt
+.debug
+.pls
+.release
+.vscode
+wsServer
+.idea
+
+# Added automatically by `pls`. Okay to push to git.
+hiredis
+
+# Added automatically by `pls`. Okay to push to git.
+C5T
