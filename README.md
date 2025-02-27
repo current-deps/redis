@@ -10,8 +10,8 @@ Features:
 
 Build
 ```
-#pip install plsbuild
-#pls build
+pip install plsbuild
+pls build
 ```
 
 Testing (requires docker)

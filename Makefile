@@ -16,9 +16,10 @@ clean:
 
 test: redis-test all
 	sleep 1
-	./.debug/test > tests/test.out
+	./.debug/test > test.out
+	./.debug/test --golden > answer.out
 	docker kill test-redis
-	diff tests/test.out tests/answer.test
+	diff test.out answer.out
 
 fmt:
 	${CLANG_FORMAT} -i src/*.cc src/*.h
